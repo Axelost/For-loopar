@@ -15,6 +15,9 @@ namespace @string
             string x = "Hello World";
             string y = x.ToUpper();
             Console.WriteLine(y);
+            string z = x.ToLower();
+            Console.WriteLine(z);
+            Console.WriteLine(x.Length);
 
             Console.ReadKey();
         }
